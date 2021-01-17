@@ -12,7 +12,7 @@ int main(void){
         {
             for(c=0;c<10;c++)
             {
-                array[a][b][c]=rand();
+                array[c][b][a]=rand();
 
             }
         }
