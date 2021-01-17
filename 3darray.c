@@ -29,7 +29,7 @@ int main(void){
 
             }
             printf("press Entre 2 continue and ctrl c for quiting");
-            printf("trying again");
+            
 
             getchar();
         }
