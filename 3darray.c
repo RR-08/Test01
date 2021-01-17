@@ -28,7 +28,7 @@ int main(void){
                 printf("array[%d][%d][%d]=%d\n",a,b,c,array[a][b][c]);
 
             }
-            printf("press enter to continue and ctrl c for quiting");
+            printf("press E to continue and ctrl c for quiting");
 
             getchar();
         }
