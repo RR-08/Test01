@@ -28,8 +28,8 @@ int main(void){
                 printf("array[%d][%d][%d]=%d\n",a,b,c,array[a][b][c]);
 
             }
-            printf("press entre to continue and ctrl c to quit");
-            printf("some other content");
+            printf("entered something");
+            printf("enter to continue ctrl c to quit");
             
 
             getchar();
