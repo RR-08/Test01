@@ -29,6 +29,7 @@ int main(void){
 
             }
             printf("press entre to continue and ctrl c to quit");
+            printf("some other content");
             
 
             getchar();
