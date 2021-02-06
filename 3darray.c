@@ -2,15 +2,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int array[10][10][10],a,b,c;
+int array[10][10][10];
+int a,b,c;
 
 int main(void){
 
-    for(a=0;a<10;a++)
+    for(a = 0;a < 10;a++)
     {
         for (b = 0; b < 10; b++)
         {
-            for(c=0;c<10;c++)
+            for(c = 0 ;c < 10;c++)
             {
                 array[a][b][c]=rand();
 
@@ -31,7 +32,6 @@ int main(void){
             
             printf("enter to continue ctrl c to quit");
             
-
             getchar();
         }
         
