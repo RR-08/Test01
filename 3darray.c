@@ -27,7 +27,6 @@ int main(void){
             for(c=0;c<10;c++)
             {
                 printf("array[%d][%d][%d]=%d\n",a,b,c,array[a][b][c]);
-
             }
             
             printf("enter to continue ctrl c to quit");
